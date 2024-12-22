@@ -17,8 +17,8 @@ module.exports = {
         'mahogany': '#C04000',
       },
       fontFamily: {
-        'vintage': ['UnifrakturMaguntia', 'cursive'],
-        'serif': ['Cormorant Garamond', 'serif'],
+        'vintage': ['Playfair Display', 'serif'],
+        'serif': ['Crimson Text', 'serif'],
       },
     },
   },
