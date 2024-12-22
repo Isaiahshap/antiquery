@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+   Optional: Import a Google Font or any custom font. 
+   Here’s an example with UnifrakturMaguntia from Google Fonts:
+*/
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap');
+
+/* Additional custom styles can go below */
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #121212; /* The dark background */
+  color: #ffffff; /* White text */
+  font-family: 'UnifrakturMaguntia', cursive; /* fallback to cursive if unavailable */
+  overflow-x: hidden;
+  width: 100%;
+}
+
+#root {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
